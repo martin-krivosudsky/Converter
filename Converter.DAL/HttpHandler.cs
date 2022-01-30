@@ -1,24 +1,23 @@
 ﻿using Converter.Base;
 using Converter.Base.Interfaces;
-using System.IO;
 
 namespace Converter.DAL
 {
-    public class FileSystemHandler : IStorageHandler
+    public class HttpHandler : IStorageHandler
     {
         public string Read(string path)
         {
-            return File.ReadAllText(path);
+            throw new System.NotImplementedException();
         }
 
         public SupportedStorage Type()
         {
-            return SupportedStorage.FileSystem;
+            throw new System.NotImplementedException();
         }
 
         public void Write(string input, string path)
         {
-            File.WriteAllText(path, input);
+            throw new System.NotImplementedException();
         }
     }
 }

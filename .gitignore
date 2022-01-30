@@ -4,3 +4,7 @@
 
 /Converter/obj
 /.vs
+/Converter.Base/obj
+/Converter.DAL/obj
+/Converter.Services/obj
+/Converter.Services.Tests/obj

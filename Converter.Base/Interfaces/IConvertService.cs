@@ -1,7 +1,9 @@
-﻿namespace Converter.Base.Interfaces
+﻿using Converter.Base.Models;
+
+namespace Converter.Base.Interfaces
 {
     public interface IConvertService
     {
-        public void Convert(string pathFrom, string pathTo, SupportedFormat formatFrom, SupportedFormat fromatTo);
+        public void Convert(IOConfig config, SupportedFormat formatFrom, SupportedFormat fromatTo);
     }
 }
