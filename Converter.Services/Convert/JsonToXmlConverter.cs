@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace Converter.Services.Convert
 {
-    internal class JsonToXmlConverter : IConverter
+    public class JsonToXmlConverter : IConverter
     {
         public string Convert(string input)
         {

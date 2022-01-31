@@ -8,3 +8,9 @@
 /Converter.DAL/obj
 /Converter.Services/obj
 /Converter.Services.Tests/obj
+/Converter/bin/Debug/netcoreapp3.1/runtimes
+/Converter/bin/Debug/netcoreapp3.1
+/Converter.Base/bin/Debug/netcoreapp3.1
+/Converter.DAL/bin/Debug/netcoreapp3.1
+/Converter.Services.Tests/bin/Debug/net6.0
+/Converter.Services/bin/Debug/netcoreapp3.1
